@@ -26,4 +26,9 @@ USE CASE DIAGRAM
 
 ΔΕΔΟΜΕΝΗ ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: LOGIN
 
+![Στιγμιότυπο οθόνης (133)](https://user-images.githubusercontent.com/57221590/145474703-a2bda1e9-9e92-4b42-904c-2778fdb44234.png)
+
+
+
+
 
