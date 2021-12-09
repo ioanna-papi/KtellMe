@@ -1,5 +1,5 @@
 CREATE TABLE Itinerary (itId INT PRIMARY KEY,
-						itName VARCHAR(40) NOT NULL UNIQUE,
+			itName VARCHAR(40) NOT NULL UNIQUE,
                         price DOUBLE NOT NULL,
                         beginning VARCHAR(30) NOT NULL,
                         station1 VARCHAR(30),
@@ -15,11 +15,11 @@ CREATE TABLE Itinerary (itId INT PRIMARY KEY,
                         
 
 CREATE TABLE Bus (busNumber INT PRIMARY KEY)
-				ENGINE=InnoDB DEFAULT CHARSET=utf8;
+			ENGINE=InnoDB DEFAULT CHARSET=utf8;
                                             						  
 
 CREATE TABLE Trip (tripId INT PRIMARY KEY,
-				   itineraryId INT NOT NULL,
+		   itineraryId INT NOT NULL,
                    dep_date DATE NOT NULL,
                    busNumber INT NOT NULL,
                    FOREIGN KEY (itineraryId) REFERENCES Itinerary(itId),
@@ -30,7 +30,7 @@ CREATE TABLE Trip (tripId INT PRIMARY KEY,
 
 
 CREATE TABLE Registered_Customer (cId INT PRIMARY KEY,
-								 username VARCHAR(30) NOT NULL,
+				 username VARCHAR(30) NOT NULL,
                                  passwd VARCHAR(30) NOT NULL,
                                  firstname VARCHAR(30),
                                  surname VARCHAR(30),
@@ -66,7 +66,7 @@ CREATE TABLE Parcel(parcId INT PRIMARY KEY,
                     senderPhone VARCHAR(10) NOT NULL,
                     height DOUBLE NOT NULL,
                     length DOUBLE NOT NULL,
-					width DOUBLE NOT NULL,
+		    width DOUBLE NOT NULL,
                     weight DOUBLE NOT NULL,
                     comments VARCHAR(100),
                     FOREIGN KEY(parcId) REFERENCES Product(prodId))
