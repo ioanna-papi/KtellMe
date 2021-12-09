@@ -50,6 +50,11 @@ USE CASE 4: TRACKING
 ![Στιγμιότυπο οθόνης (141)](https://user-images.githubusercontent.com/57221590/145476365-76f7110d-b896-4946-8808-9d07306ed356.png)
 
 
+CLASS DIAGRAM
+
+![Στιγμιότυπο οθόνης (145)](https://user-images.githubusercontent.com/57221590/145476978-0cc42cdc-34fa-4bf2-96bf-3ac9165106d8.png)
+
+
 
 
 
