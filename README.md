@@ -29,6 +29,13 @@ USE CASE DIAGRAM
 ![Στιγμιότυπο οθόνης (133)](https://user-images.githubusercontent.com/57221590/145474703-a2bda1e9-9e92-4b42-904c-2778fdb44234.png)
 
 
+ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: TICKET PURCHASE
+
+![Στιγμιότυπο οθόνης (138)](https://user-images.githubusercontent.com/57221590/145475558-54ba93f9-a296-4885-906a-3172eece9505.png)
+
+
+ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: 
+
 
 
 
