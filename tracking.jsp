@@ -2,14 +2,14 @@
     <%@ page import="ktellmepackage.*,java.util.*,java.lang.*" %>
         <%@ page import="itineraries.*" %>
 
-
+	
             <!DOCTYPE html>
             <html lang="en">
-
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
             <head>
                 <title>Tracking</title>
                 <meta charset="UTF-8">
-                <link href="tracking.css" type="text/css" rel="stylesheet">
+                <link href="track.css" type="text/css" rel="stylesheet">
                 <link href="basics.css" type="text/css" rel="stylesheet">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                 <meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=5.0, minimum-scale=0.41">
@@ -41,29 +41,55 @@
 		
 
                 <div class="basket">
-                    <form action="showTracking.jsp" method="POST">
+                   <form action="showTracking.jsp">
+
                         <div class="container">
 
 				<% if(request.getAttribute("fail") != null) { %>
 					<h3 style="color:red;"><%=(String)request.getAttribute("fail") %></h3><br><br>
 					<% } %>
-			     
+
                             <h1>Παρακολούθηση διαδρομής δέματος</h1>
                             <p>Παρακαλούμε εισάγετε τον κωδικό δέματος που σας στάλθηκε στο email προκειμένου να παρακολουθήσετε την εξέλιξη της διαδρομής του.</p>
                             <hr><br>
-                            <div class="col-25">
-                                <label for="id"><b>Κωδικός δέματος:</b></label></div>
-                            <div class="col-50">
-                                <input type="text" placeholder="parcel id" name="id" required></div><br>
+
+				
+
+				<div ng-app="">
+				<div class="col-75">
+				<p><b>Κωδικός δέματος : </b><input type="text" ng-model="name" name = "id" id = "numb" placeholder="parcel id" required></p>
+				</div>
+				<br>
+				<div class="col-50">
+				 <button type="button" class="btn1" onclick="myFunction()"><b>Επαλήθευση κωδικού</b></button></div>
+				<br><br>
+				<center><h4 style="bold" id="demo"></h4></center> <br>
+				
+				<center><form>
+   				 <input type="checkbox" ng-model="myVar">
+				Αποδέχομαι τους όρους σχετικά με την πολιτική προστασίας προσωπικών δεδομένων της KtellMe
+  				</form></center>
+  				<h1 ng-show="myVar"><center><button class="btn">Παρακολούθηση διαδρομής</button></center> </h1>
+
+				</div>
+
+				
+				<script>
+				function myFunction() {
+					var x, text;
+  				        x = document.getElementById("numb").value;	
+  					if (isNaN(x) || x < 1) {
+    						text = "Ο κωδικός σας δεν έχει έγκυρη μορφή. Παρακαλούμε ελέγξτε πάλι το email που σας στάλθηκε!";
+  					} else {
+						text = "Ο κωδικός σας έχει έγκυρη μορφή. Επιλέξτε το checkbox για να προχωρήσετε στην επόμενη σελίδα!";
+					}
+					 document.getElementById("demo").innerHTML = text;
+				}
+				</script>
 
 
-                            <input type="checkbox" name="agree" style="margin-bottom:15px" required> Αποδέχομαι τους όρους σχετικά με την πολιτική προστασίας προσωπικών δεδομένων της KtellMe
-
-                            <div class="clearfix">
-                                <center><button class="btn">Παρακολούθηση διαδρομής</button></center>
-                            </div>
                         </div>
-                    </form>
+                  </form>
                 </div>
 
                 <div class="footer">
