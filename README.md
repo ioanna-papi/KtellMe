@@ -18,9 +18,10 @@ KtellMe
 USE CASE DIAGRAM
 ![image](https://user-images.githubusercontent.com/57221590/145473104-856805c0-f5a5-4144-a485-cc453e2de28c.png)
 
+
 ΔΕΔΟΜΕΝΗ ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: SIGNUP
- 
-     ![Στιγμιότυπο οθόνης (132)](https://user-images.githubusercontent.com/57221590/145474404-2593aa45-b100-4eb5-9081-bae802cd8cd8.png)
+
+![Στιγμιότυπο οθόνης (132)](https://user-images.githubusercontent.com/57221590/145474520-d19259e9-be5a-4302-bf3e-ff23d0acc06e.png)
 
 
 ΔΕΔΟΜΕΝΗ ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: LOGIN
