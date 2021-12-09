@@ -1,0 +1,2 @@
+# KtellMe
+KTEL is the main intercity public transport service in Greece. KtellMe is a web app built in order to better serve the KTEL customers. Specifically, it allows the user to easily buy tickets or cancel them, send parcels and track their route online.  In order to build the app, we've used 3-layer architecture (Front-end: HTML and Angular JS, Back-end: Java, and MySQL to create our database).
