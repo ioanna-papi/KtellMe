@@ -55,6 +55,15 @@ CLASS DIAGRAM
 ![Στιγμιότυπο οθόνης (145)](https://user-images.githubusercontent.com/57221590/145476978-0cc42cdc-34fa-4bf2-96bf-3ac9165106d8.png)
 
 
+DATABASE DIAGRAM
+
+![Στιγμιότυπο οθόνης (147)](https://user-images.githubusercontent.com/57221590/145477161-f108aaf9-8eca-47c6-9802-d8848c5a95c4.png)
+
+
+COMPONENT DIAGRAM
+
+![Στιγμιότυπο οθόνης (148)](https://user-images.githubusercontent.com/57221590/145477318-d653cb3e-95a2-428a-b72e-8194612f59f9.png)
+
 
 
 
