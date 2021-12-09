@@ -19,5 +19,8 @@ USE CASE DIAGRAM
 ![image](https://user-images.githubusercontent.com/57221590/145473104-856805c0-f5a5-4144-a485-cc453e2de28c.png)
 
 ΔΕΔΟΜΕΝΗ ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: SIGNUP
- 	
+ 	![Στιγμιότυπο οθόνης (132)](https://user-images.githubusercontent.com/57221590/145474071-11c029ff-c391-454f-b860-e27d6883aada.png)
+
+ΔΕΔΟΜΕΝΗ ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: LOGIN
+
 
