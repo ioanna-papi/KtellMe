@@ -1,0 +1,28 @@
+html {
+    background: url('images/blue2.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: 0 0;
+    height: 100%;
+}
+  
+.basket{
+     background-color: rgb(188, 188, 197); 
+     margin-left:120px;
+     padding-left: 120px;
+     padding-top:60px;
+     margin-top:60px;
+     padding-bottom:60px;
+     margin-bottom: 60px;
+     margin-right:120px; 
+     padding-right:120px;
+     opacity:.85;
+     -moz-opacity:.50; 
+     filter:alpha(opacity=50)
+}
+
+.container {
+    padding: 60px;
+}

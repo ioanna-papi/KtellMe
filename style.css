@@ -1,0 +1,219 @@
+
+*{
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+
+}
+
+  .background {
+    background: url("images/bus_hp.png");
+    background-size: cover;
+    filter: blur(3px);
+    position: absolute;
+    height: 100%;
+    width: 100%
+}
+.foreground
+{
+  backdrop-filter: blur(10px);
+}
+  .contact
+  {
+      position:relative;
+      display: flex;
+      min-height: 100vh;
+      padding: 50px 100px;
+      align-items:center;
+      flex-direction: column;
+
+    
+  
+  }
+
+.contact .content
+{
+  max-width: 900px;
+  text-align: center;
+}
+.contact .content h1
+{
+  font-size:45px;
+  font-weight: 500;
+  color: rgb(36, 34, 34);
+}
+.contact .content p
+{
+  font-size:17px;
+  font-weight: 500;
+  width:100%;
+  color: rgb(36, 34, 34);
+}
+.container
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 20px;
+  }
+  .container .contactInfo
+  {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .contactInfo .box
+  {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+  }
+  .container .contactInfo .box .icon
+  {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    font-size:22px;
+
+  }
+  .container .contactInfo .box .text
+  {
+    width: 150px;
+    display: flex;
+    margin-left:20px;
+    font-size:16px;
+    color: rgb(36, 34, 34);
+    flex-direction: column;
+    font-weight:300;
+
+  }
+  .container .contactInfo .box .text h3
+  {
+    
+   display:flex;
+    font-weight: 500;
+    color:rgb(36, 34, 34);
+
+  }
+  .contactForm
+  {
+    width: 40%;
+    padding:40px;
+    background: #fff;
+    
+  }
+  
+.contactForm h2
+{
+  font-size: 30px;
+  color: #333;
+  font-weight:500;
+
+}
+.contactForm .inputBox
+{
+  position: relative;
+  width:100%;
+  margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+  width:100%;
+  padding: 5px 0;
+  font-size: 16 px;
+  margin: 10px 0;
+  border:none;
+  border-bottom: 2px solid #333;
+  outline:none;
+  resize: none;
+}
+
+.contactForm .inputBox span
+{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color:#666;
+}
+
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+  color: #e91e63;
+  font-size:12px;
+  transform: translate(-20px, -20px);
+  position: absolute;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(207, 192, 231);
+  border: none;
+  color: #333;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.footer {
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2B3856;
+  color: white;
+  text-align: center;
+ padding: 10px 0;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

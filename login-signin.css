@@ -1,0 +1,101 @@
+/* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 60%;
+    background-color: #f1f1f1;
+    padding: 160px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 40%;
+    background-image: url("images/signup2.png");
+    background-position: cover;
+    background-repeat: repeat;
+    padding: 160px;
+    margin-top: -40px;
+    margin-bottom: -50px;
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  form {
+    border: 10px solid #f1f1f1;
+  }
+
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 70%;
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    padding: 20px;
+    background: #2B3856;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid #2B3856;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #2B3856;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .btn2 {
+  border: none;
+  background-color: #2B3856;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  }
+  
+  .btn2:hover {
+    background: #2B3856;
+    color: white;
+  }
+
+  .here {
+    text-decoration: underline;
+  }
+

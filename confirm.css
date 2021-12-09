@@ -1,0 +1,95 @@
+html {
+  background: url('images/blue2.jpg') no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position: 0 0;
+  height: 100%;
+}
+
+.basket{
+   background-color: rgb(188, 188, 197); 
+   margin-left:120px;
+   padding-left: 120px;
+   padding-top:60px;
+   margin-top:60px;
+   padding-bottom:60px;
+   margin-bottom: 60px;
+   margin-right:120px; 
+   padding-right:120px;
+   opacity:.85;
+   -moz-opacity:.50; 
+   filter:alpha(opacity=50)
+}
+
+.button {
+  background-color: #2B3856;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  box-align: center;
+}
+
+.button:hover {
+  opacity:1;
+}
+
+@media screen and (max-width: 300px) {
+  .button {
+     width: 100%;
+  }
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 60px;
+}
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+  margin-left:380px;
+  margin-top:30px;
+
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:black;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #2B3856;
+  ;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #2B3856;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #2B3856;
+}
+
+h2, h3, h4 {
+  text-align: center;
+}

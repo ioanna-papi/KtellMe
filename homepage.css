@@ -1,0 +1,55 @@
+html {
+    background: url('images/blue2.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: 0 0;
+    height: 100%;
+}
+  
+.basket{
+     background-color: #C2DFFF; 
+     margin-left:120px;
+     padding-left: 120px;
+     padding-top:60px;
+     margin-top:60px;
+     padding-bottom:60px;
+     margin-bottom: 60px;
+     margin-right:120px; 
+     padding-right:120px;
+     opacity:.85;
+     -moz-opacity:.50; 
+     filter:alpha(opacity=50)
+}
+
+.avatar {
+    vertical-align: middle;
+    glyph-orientation-horizontal: 0deg;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+  

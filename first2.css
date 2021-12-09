@@ -1,0 +1,46 @@
+html {
+  background: url('images/5283.jpg') no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position: 0 0;
+  height: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.btn2 {
+  background-color: #f1870d;
+  color: white;
+  padding: 3px 8px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn {
+    background-color: #f1870d;
+    color: white;
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+  }
+
