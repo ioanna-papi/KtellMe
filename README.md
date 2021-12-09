@@ -19,23 +19,27 @@ USE CASE DIAGRAM
 ![image](https://user-images.githubusercontent.com/57221590/145473104-856805c0-f5a5-4144-a485-cc453e2de28c.png)
 
 
-ΔΕΔΟΜΕΝΗ ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: SIGNUP
+BASIC USE CASE: SIGNUP
 
 ![Στιγμιότυπο οθόνης (132)](https://user-images.githubusercontent.com/57221590/145474520-d19259e9-be5a-4302-bf3e-ff23d0acc06e.png)
 
 
-ΔΕΔΟΜΕΝΗ ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: LOGIN
+BASIC USE CASE: LOGIN
 
 ![Στιγμιότυπο οθόνης (133)](https://user-images.githubusercontent.com/57221590/145474703-a2bda1e9-9e92-4b42-904c-2778fdb44234.png)
 
 
-ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: TICKET PURCHASE
+USE CASE 1: TICKET PURCHASE
 
 ![Στιγμιότυπο οθόνης (138)](https://user-images.githubusercontent.com/57221590/145475558-54ba93f9-a296-4885-906a-3172eece9505.png)
 
 
-ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: 
+USE CASE 2: CANCEL PURCHASE
 
+![Στιγμιότυπο οθόνης (139)](https://user-images.githubusercontent.com/57221590/145475976-30e058c7-6b77-4947-803b-6e898d9eee08.png)
+
+
+USE CASE 3
 
 
 
