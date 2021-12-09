@@ -20,7 +20,8 @@ USE CASE DIAGRAM
 
 ΔΕΔΟΜΕΝΗ ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: SIGNUP
 
- 	![Στιγμιότυπο οθόνης (132)](https://user-images.githubusercontent.com/57221590/145474071-11c029ff-c391-454f-b860-e27d6883aada.png)
+ ![Στιγμιότυπο οθόνης (132)](https://user-images.githubusercontent.com/57221590/145474238-52d0067f-1e24-4063-83a2-ec28605a1be5.png)
+
 
 ΔΕΔΟΜΕΝΗ ΠΕΡΙΠΤΩΣΗ ΧΡΗΣΗΣ: LOGIN
 
