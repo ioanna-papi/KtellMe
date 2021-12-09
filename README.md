@@ -34,12 +34,22 @@ USE CASE 1: TICKET PURCHASE
 ![Στιγμιότυπο οθόνης (138)](https://user-images.githubusercontent.com/57221590/145475558-54ba93f9-a296-4885-906a-3172eece9505.png)
 
 
-USE CASE 2: CANCEL PURCHASE
+USE CASE 2: SEND PARCEL
 
 ![Στιγμιότυπο οθόνης (139)](https://user-images.githubusercontent.com/57221590/145475976-30e058c7-6b77-4947-803b-6e898d9eee08.png)
 
 
-USE CASE 3
+USE CASE 3: CANCEL PURCHASE
+
+![Στιγμιότυπο οθόνης (140)](https://user-images.githubusercontent.com/57221590/145476249-092f8bbb-dc08-4a69-872b-290a769c6e09.png)
+
+
+USE CASE 4: TRACKING
+
+![Στιγμιότυπο οθόνης (141)](https://user-images.githubusercontent.com/57221590/145476365-76f7110d-b896-4946-8808-9d07306ed356.png)
+
+
+
 
 
 
