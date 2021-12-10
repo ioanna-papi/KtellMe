@@ -15,7 +15,7 @@ CREATE TABLE Itinerary (itId INT PRIMARY KEY,
                         
 
 CREATE TABLE Bus (busNumber INT PRIMARY KEY)
-			ENGINE=InnoDB DEFAULT CHARSET=utf8;
+		 ENGINE=InnoDB DEFAULT CHARSET=utf8;
                                             						  
 
 CREATE TABLE Trip (tripId INT PRIMARY KEY,
