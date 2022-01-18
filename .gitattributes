@@ -1,2 +1,2 @@
 *.sql linguist-detectable=true
-*.javaserver-pages linguist-detectable=true
+*.jsp linguist-detectable=true
