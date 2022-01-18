@@ -16,51 +16,51 @@
 Ωστόσο, για την αξιοποίηση των παραπάνω υπηρεσιών που προσφέρει η KtellME απαιτείται πρώτα να έχει προηγηθεί εγγραφή (sign up) και σύνδεση (log in) στο σύστημα.
 Στο συγκεκριμένο παραδοτέο, το οποίο αποτελεί και το τελευταίο του συνόλου της εργασίας μας, υλοποιούμε τα υπόλοιπα use cases της εφαρμογής μας. Παρόλα αυτά, πρέπει να τονίσουμε ότι για την πλήρη υλοποίηση των περιπτώσεων χρήσης της αγοράς προϊόντος αλλά και της παρακολούθησης δέματος, απαιτείται συνεργασία με εξωτερικά συστήματα, όπως τραπεζικό σύστημα για τις περιπτώσεις χρήσης «αγορά εισιτηρίου» και «αποστολή δέματος» και σύστημα εντοπισμού θέσης (GPS ή IoT) για την περίπτωση χρήσης «παρακολούθηση δέματος».
 
-USE CASE DIAGRAM
+# USE CASE DIAGRAM
 ![image](https://user-images.githubusercontent.com/57221590/145473104-856805c0-f5a5-4144-a485-cc453e2de28c.png)
 
 
-BASIC USE CASE: SIGNUP
+# BASIC USE CASE: SIGNUP
 
 ![Στιγμιότυπο οθόνης (132)](https://user-images.githubusercontent.com/57221590/145474520-d19259e9-be5a-4302-bf3e-ff23d0acc06e.png)
 
 
-BASIC USE CASE: LOGIN
+# BASIC USE CASE: LOGIN
 
 ![Στιγμιότυπο οθόνης (133)](https://user-images.githubusercontent.com/57221590/145474703-a2bda1e9-9e92-4b42-904c-2778fdb44234.png)
 
 
-USE CASE 1: TICKET PURCHASE
+# USE CASE 1: TICKET PURCHASE
 
 ![Στιγμιότυπο οθόνης (138)](https://user-images.githubusercontent.com/57221590/145475558-54ba93f9-a296-4885-906a-3172eece9505.png)
 
 
-USE CASE 2: SEND PARCEL
+# USE CASE 2: SEND PARCEL
 
 ![Στιγμιότυπο οθόνης (139)](https://user-images.githubusercontent.com/57221590/145475976-30e058c7-6b77-4947-803b-6e898d9eee08.png)
 
 
-USE CASE 3: CANCEL PURCHASE
+# USE CASE 3: CANCEL PURCHASE
 
 ![Στιγμιότυπο οθόνης (140)](https://user-images.githubusercontent.com/57221590/145476249-092f8bbb-dc08-4a69-872b-290a769c6e09.png)
 
 
-USE CASE 4: TRACKING
+# USE CASE 4: TRACKING
 
 ![Στιγμιότυπο οθόνης (141)](https://user-images.githubusercontent.com/57221590/145476365-76f7110d-b896-4946-8808-9d07306ed356.png)
 
 
-CLASS DIAGRAM
+# CLASS DIAGRAM
 
 ![Στιγμιότυπο οθόνης (145)](https://user-images.githubusercontent.com/57221590/145476978-0cc42cdc-34fa-4bf2-96bf-3ac9165106d8.png)
 
 
-DATABASE DIAGRAM
+# DATABASE DIAGRAM
 
 ![Στιγμιότυπο οθόνης (147)](https://user-images.githubusercontent.com/57221590/145477161-f108aaf9-8eca-47c6-9802-d8848c5a95c4.png)
 
 
-COMPONENT DIAGRAM
+# COMPONENT DIAGRAM
 
 ![Στιγμιότυπο οθόνης (148)](https://user-images.githubusercontent.com/57221590/145477318-d653cb3e-95a2-428a-b72e-8194612f59f9.png)
 
