@@ -1,3 +1,8 @@
 *.sql linguist-detectable=true
 
-*.html linguist-detectable=true
+<jsp-config>
+    <taglib>
+        <taglib-uri> http://company.xyz/jsp/tlds/customtags </ taglib-uri>
+        <taglib-location> /WEB-INF/exampleTag.tld </ taglib-location>
+    </ taglib>
+</ jsp-config>
